@@ -25,6 +25,6 @@ public class ContaCorrente extends ContaBancaria{
 
     @Override
     public void consultarSaldo() {
-        System.out.printf("O saldo atual da sua conta corrente Ã© de : R$ %.2f%n", saldo);
+        System.out.printf("O saldo atual da sua conta corrente é de : R$ %.2f%n", saldo);
     }
 }

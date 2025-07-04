@@ -10,9 +10,9 @@ public class Main {
 
         do {
             System.out.println("==== Banco Konoha ====");
-            System.out.println("Escolha uma opÃ§Ã£o: ");
+            System.out.println("Escolha uma opção: ");
             System.out.println("1 - Acessar Conta Corrente");
-            System.out.println("2 - Acessar Conta PoupanÃ§a");
+            System.out.println("2 - Acessar Conta Poupança");
             System.out.println("5 - Sair do Sistema.");
 
             option = scanner.nextInt();
@@ -24,7 +24,7 @@ public class Main {
 
                     do {
                         System.out.println("=== Conta Corrente ===");
-                        System.out.println("Escolha uma operaÃ§Ã£o: ");
+                        System.out.println("Escolha uma operação: ");
                         System.out.println("1 - Depositar valores.");
                         System.out.println("2 - Consultar meu saldo.");
                         System.out.println("3 - Efetuar Saque.");
@@ -50,7 +50,7 @@ public class Main {
                                 System.out.println("Voltando para o menu principal...");
                                 break;
                             default:
-                                System.out.println("OpÃ§Ã£o invÃ¡lida !");
+                                System.out.println("Operação inválida !");
                         }
                     } while (subOption != 4);
                     break;
@@ -61,7 +61,7 @@ public class Main {
 
                     do {
                         System.out.println("=== Conta Corrente ===");
-                        System.out.println("Escolha uma operaÃ§Ã£o: ");
+                        System.out.println("Escolha uma operação: ");
                         System.out.println("1 - Depositar valores.");
                         System.out.println("2 - Consultar meu saldo.");
                         System.out.println("4 - Voltar para o Menu principal.");
@@ -84,7 +84,7 @@ public class Main {
                                 break;
                             }
                             default:
-                                System.out.println("OpÃ§Ã£o invÃ¡lida !");
+                                System.out.println("Operação Inválida !");
                         }
                     } while (subOption != 4);
                     break;

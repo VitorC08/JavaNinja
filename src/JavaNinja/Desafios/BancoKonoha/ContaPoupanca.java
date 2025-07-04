@@ -24,6 +24,6 @@ public class ContaPoupanca extends ContaBancaria{
 
     @Override
     public void consultarSaldo() {
-        System.out.printf("O saldo atual da sua conta poupanÃ§a Ã© de : R$ %.2f%n", saldo);
+        System.out.printf("O saldo atual da sua conta poupança é ''de : R$ %.2f%n", saldo);
     }
 }
